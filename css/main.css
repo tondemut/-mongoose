@@ -279,7 +279,6 @@ section.features .feature-item i {
   background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
   background: linear-gradient(to left, #7b4397, #dc2430);
   -webkit-background-clip: text;
-  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -437,8 +436,13 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   padding: 15px 45px;
 }
 
+.featured-img {
+  background-color: wheat;
+  
+}
+
 .wrapper {
-  padding: 50px 50px;
+  padding: 10px 50px 50px 50px;
   max-width: 1200px;
   text-align: center;
   margin-left: auto;
@@ -452,11 +456,10 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   width: 45%;
   margin: 20px;
   height: 300px;
-  border: 1px solid #fdcc52;
+  border: 1px solid rgb(243, 181, 65);
   overflow: hidden;
   position: relative;
-  float: left;
-  
+  display: inline-block;
 cursor: pointer;
 }
 
@@ -475,9 +478,7 @@ cursor: pointer;
 .bg-one {background-image: url(../img/Vic\ Falls.jpg);}
 .bg-two {background-image: url(../img/165200063-56a375345f9b58b7d0d20a2c.jpg);}
 
-
-
-.link {
+.links {
   display: none;
   font-size: 35px;
   color: #ffffff !important;
@@ -518,7 +519,7 @@ cursor: pointer;
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(153, 153, 150, 0.75);
+  background-color: rgba(243, 204, 28, 0.178);
 }
 
 /* Media Queries */
